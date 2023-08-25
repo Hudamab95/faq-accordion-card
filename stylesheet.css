@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background: rgb(101,101,231);
+  background: linear-gradient(0deg, rgba(101,101,231,1) 0%, rgba(175,103,233,1) 100%) no-repeat center center fixed;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: Kumbh Sans;
+}
+
+
+.container {
+  height: 510px;
+  width: 925px;
+  display: flex;
+  justify-content: flex-end;
+  background:
+  url(images/illustration-woman-online-desktop.svg) bottom 3.1rem left -5.1rem no-repeat,
+  url(images/bg-pattern-desktop.svg) bottom -10rem left -36rem no-repeat;
+  background-color: white; 
+  border-radius: 20px;
+}
+
+
+/* questions */
+
+.questions {
+  width: 50%;
+  padding-top: 60px;
+  padding-right: 80px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.questions-title {
+  margin-left: 20px;
+  margin-bottom: 0;
+  }
+
+
+.question-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question-article {
+  margin: 20px;
+  border-bottom: 1px solid #d3d2d6;
+}
+
+.question-text {
+  font-weight: 400;
+  margin-top: 10px;
+  user-select: none;
+}
+
+.question-text:hover {
+ color: #f47c55;
+ font-weight: bold;
+}
+
+
+#question-button {
+  background: none;
+  border: none;
+}
+
+
+/* answers */
+
+
+.answer-card {
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.answer-text {
+   display: none;
+   color: #b3b2b6;
+   font-weight: 400;
+   font-size: 13px;
+   margin-bottom: 10px;
+}
+
+.answer-card {
+  user-select: none;
+}
+
+
+/* footer */
+
+.attribution { 
+  font-size: 11px; text-align: center; }
+
+.attribution a { 
+  color: #fff; 
+  text-decoration: none;
+}
+
+.attribution a:hover { 
+  text-decoration: underline;
+  text-decoration-color: rgba(175,103,233,1);
+}
+
+
+
