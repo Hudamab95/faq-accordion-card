@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Here](https://hudamab95.github.io/qr-code-component/)
+- Live Site URL: [Here](https://hudamab95.github.io/faq-accordion-card/)
 
 ## My process
 
